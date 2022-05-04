@@ -3,6 +3,7 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import skl
 
 from loading_data import LoadingData
 from modeling import Modeling
@@ -73,7 +74,8 @@ class TrainingModel(LoadingData, Modeling):
 
     def predictTesting(self):
         self.predictTest = self.model.predict(self.x_testingData).flatten() # Prediction with training model
-        self.predictTest # Print the prediction
+        print(self.predictTest) # Print the prediction
+        
 
     def comparativePlot(self):
         sns.set(style = "whitegrid")

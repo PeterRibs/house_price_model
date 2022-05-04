@@ -20,7 +20,7 @@ There are 14 attributes in each case of the dataset. They are:
 
 ## Question:
 
-Is it possible to predict the value of the property from the number of rooms?
+What are the property prices in relation to the number of rooms?
 
 ## Technologies used:
 
