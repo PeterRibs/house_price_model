@@ -78,5 +78,6 @@ class TrainingModel(LoadingData, Modeling):
     def comparativePlot(self):
         sns.set(style = "whitegrid")
         sns.lineplot(data = self.dataframe, palette = "tab10", linewidth  = 2.5)
+        plt.ylabel("Mean Squared Error")
         plt.show()
 

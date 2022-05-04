@@ -16,7 +16,7 @@ class Modeling:
                                             name = 'Adam') # Otimizer      
         self.model.compile(loss = 'mse', 
                     optimizer = optimizer, 
-                    metrics = ['mae','mse']) # Model copilation
+                    metrics = ['mae','mse']) # Model copile
         return self.model
 
     def plotModel (self): # Model Plot
