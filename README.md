@@ -1,6 +1,8 @@
 # House price model
 
-Using real data from Boston House Prices Dataset (More detal in `https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html`). The question was answered using separate files. The graphs produced in order to answer the question are in the 'Graphs' folder or 'https://peterribs.github.io/house_price_model/'. The names of the figures are as 'FIG_'+'name of the file that gave origin'.
+Using real data from Boston House Prices Dataset (More detal in `https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html`). The question was answered using separate files. The graphs produced in order to answer the question are in the 'Graphs' folder or 'https://peterribs.github.io/house_price_model/'. The names of the figures are as 'FIG_'+'name of the file that gave origin'. 
+
+We can also visualize the difference between the training and validation data to see the model training error.
 
 There are 14 attributes in each case of the dataset. They are:
 - CRIM - per capita crime rate by town
